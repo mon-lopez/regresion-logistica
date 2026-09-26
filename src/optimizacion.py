@@ -1,5 +1,5 @@
 from scipy.optimize import minimize
-from .modelo import riesgo_logistico
+from modelo import riesgo_logistico
 
 def ajustar_modelo(x, y, theta0=(0.0, 0.0), maxiter=None):
     """

@@ -1,5 +1,5 @@
 import numpy as np
-from .modelo import sigmoid
+from modelo import sigmoid
 
 def generar_datos(n, seed=2026):
     """
